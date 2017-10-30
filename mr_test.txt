@@ -1,0 +1,2 @@
+hello everyone,
+we will see how map reduce works for word count problem. word count is considered as hello world of map reduce programming. this program will not print hello world instead it will give word counts. lets see map reduce in action.

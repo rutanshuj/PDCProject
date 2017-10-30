@@ -1,0 +1,18 @@
+5 Vs
+Volume - vasts amount of data generated 
+every second
+TB or ZB 
+
+Velocity - speed at which new data
+is generated 
+
+Variety - different types of data 
+
+Veracity - accuracy of data or truthful 
+entries
+
+Value - having access to big data with value
+Make use cases
+
+
+
