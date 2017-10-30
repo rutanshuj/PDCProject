@@ -1,0 +1,1 @@
+create table product_dtl ( product_id: int, product-name: string, product_price: float, product_category: string) rows format delimited fields terminated by ',' ; 
