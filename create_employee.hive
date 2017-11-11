@@ -1,0 +1,7 @@
+create external table employee
+(id string,
+ fname string,
+ lname string,
+ department_id string
+ )
+ ROW FORMAT DELIMITED FIELDS TERMINATED BY ','  location '/user/sample_data/employee/';
