@@ -1,0 +1,13 @@
+
+
+create external table parsed_logs
+(logdate string,
+ url string,
+ ip string,
+ city string,
+ state string,
+ country string,
+ swid string
+ )
+ ROW FORMAT DELIMITED FIELDS TERMINATED BY '\t'  location '/user/sample_data/pig_out_parsed_logs';
+ 
