@@ -1,0 +1,9 @@
+
+create external table salary
+(
+salary_id string,
+employee_id string,
+payment double,
+date string 
+)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY ','  location '/user/sample_data/salary/';
