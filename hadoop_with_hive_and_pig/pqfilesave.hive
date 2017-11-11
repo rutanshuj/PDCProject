@@ -1,0 +1,10 @@
+create table salary_parquetfile
+(
+salary_id string,
+employee_id string,
+payment double,
+date string 
+)
+stored as parquetfile;
+
+INSERT OVERWRITE TABLE salary_parquetfile SELECT * FROM salary;

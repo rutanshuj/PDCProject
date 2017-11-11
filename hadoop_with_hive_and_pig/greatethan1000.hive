@@ -1,0 +1,9 @@
+
+select
+d.dept_name,
+count(e.id) as employee_count
+from department d
+join employee e on d.id=e.department_id
+join salary s on s.employee_id=e.id
+where s.payment>1000 and month(s.date1)=8 and year(s.date1)=2008
+group by d.dept_name ;
