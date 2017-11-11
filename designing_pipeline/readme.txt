@@ -1,1 +1,1 @@
-
+This directory consists of two scripts that run on a data called Omniture.tsv. The dataset is of a stream clicks by user. These scripts mimic a data pipeline. The final output is of the hive script which creates an external table for parsed_logs.
